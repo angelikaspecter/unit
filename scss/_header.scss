@@ -1,0 +1,25 @@
+.site-header {
+	padding-top: 19px;
+	padding-bottom: 17px;
+	box-shadow: 0 4px 10px rgba(190, 190, 190, 0.15);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	&__logo {
+		display: flex;
+		transition: opacity 0.3s ease;
+	}
+	&__search {
+		display: flex;
+		min-width: 570px;
+		margin: 0 120px 0 10px;
+	}
+	&__navigation {
+		min-height: 45px;
+		display: flex;
+		align-items: flex-end;
+	}
+}
+
+@import "_search";
+@import "_navigation";

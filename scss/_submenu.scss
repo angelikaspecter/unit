@@ -1,0 +1,31 @@
+.submenu {
+    &:not(:last-of-type) {
+        margin: 0 0 10px;
+    }
+    &__list {
+        padding: 15px 0 0 15px;
+        list-style: none;
+    }
+    &__item {
+        margin-bottom: 10px;
+    }
+    &__link {
+        font-size: 14px;
+        line-height: 17px;
+        color: #000c24;
+        text-decoration: none;
+    }
+    &__btn {
+        padding: 5px 0 5px;
+        margin-left: 15px;
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #0449ec;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+}
